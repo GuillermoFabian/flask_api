@@ -87,7 +87,8 @@ def create_app(test_config=None):
           db.session.delete(question)
           db.session.commit()
 
-      except:
+      except Exception as e:
+          print(e)
           error = False
           db.session.rollback()
           abort(405)
@@ -121,8 +122,9 @@ def create_app(test_config=None):
               'created': question.id,
               'total_questions': len(Question.query.all())
           })
-      except:
-          abort(405)
+      except Exception as e:
+           print(e)
+           abort(405)
 
 
 
@@ -183,8 +185,9 @@ def create_app(test_config=None):
 
               }
           )
-      except:
-          abort(404)
+      except Exception as e:
+           print(e)
+           abort(404)
 
 
   @app.errorhandler(404)

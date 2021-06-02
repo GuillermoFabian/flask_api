@@ -14,8 +14,12 @@ class TriviaTestCase(unittest.TestCase):
         """Define test variables and initialize app."""
         self.app = create_app()
         self.client = self.app.test_client
-        self.database_name = "trivia_test"
-        self.database_path = "postgresql://{}:{}@{}/{}".format("admin", "admin", "localhost:5432", self.database_name)
+        self.DB_HOST = os.getenv('DB_HOST', '127.0.0.1:5432')
+        self.DB_USER = os.getenv('DB_USER', 'admin')
+        self.DB_PASSWORD = os.getenv('DB_PASSWORD', 'admin')
+        self.database_name = os.getenv('DB_NAME', 'trivia_test')
+
+        self.database_path = "postgresql://{}:{}@{}/{}".format(self.DB_USER, self.DB_PASSWORD, self.DB_HOST, self.database_name)
         setup_db(self.app, self.database_path)
 
         self.new_question = {
@@ -73,7 +77,9 @@ class TriviaTestCase(unittest.TestCase):
         self.assertEqual(data['message'], 'Method not allowed')
 
     def test_delete_question(self):
-        question_del = 28
+        res = self.client().post('/questions', json=self.new_question)
+        data = json.loads(res.data)
+        question_del = data['created']
         res = self.client().delete('/questions/' + str(question_del))
         data = json.loads(res.data)
         question = Question.query.filter(Question.id == question_del).one_or_none()
