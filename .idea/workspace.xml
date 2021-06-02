@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0c0f69-5d2f-46a0-a3bd-10c8a1aa1721" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/backend/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/flaskr/__init__.py" afterPath="$PROJECT_DIR$/backend/flaskr/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/backend/models.py" afterPath="$PROJECT_DIR$/backend/models.py" />
-      <change beforePath="$PROJECT_DIR$/backend/test_flaskr.py" afterPath="$PROJECT_DIR$/backend/test_flaskr.py" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/QuestionView.js" afterPath="$PROJECT_DIR$/frontend/src/components/QuestionView.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2820">
-                <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+              <first_editor relative-caret-position="492">
+                <caret line="245" column="21" lean-forward="true" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -49,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/backend/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -70,9 +63,9 @@
       <list>
         <option value="$PROJECT_DIR$/backend/models.py" />
         <option value="$PROJECT_DIR$/frontend/src/components/QuestionView.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/backend/test_flaskr.py" />
         <option value="$PROJECT_DIR$/backend/flaskr/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -85,7 +78,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1413" />
     <option name="width" value="1873" />
     <option name="height" value="1080" />
@@ -164,7 +157,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1413" y="0" width="1873" height="1080" extended-state="6" />
+    <frame x="1413" y="0" width="1873" height="1080" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -259,7 +252,7 @@
         <state relative-caret-position="780">
           <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="12" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -301,7 +294,7 @@
         <state relative-caret-position="208">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -326,7 +319,7 @@
         <state relative-caret-position="156">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,7 +389,7 @@
     <entry file="file://$PROJECT_DIR$/backend/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -414,8 +407,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2820">
-            <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <first_editor relative-caret-position="492">
+            <caret line="245" column="21" lean-forward="true" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />

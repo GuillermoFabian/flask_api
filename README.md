@@ -238,6 +238,12 @@ Hematology is a branch of medicine involving the study of what?"}],
 
 ```
 {"success":true,
-"question": 'example question'}
+"question": {
+        'id': 1,
+        'question': 'Example',
+        'answer': 'Answer', 
+        'difficulty': 5,
+        'category': 4
+    }}
  ```
 
